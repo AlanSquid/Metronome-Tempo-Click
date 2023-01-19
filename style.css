@@ -8,6 +8,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #525252;
+  /* 讓按鈕不會被選擇，避免無法連點 */
+  user-select: none;
 }
 
 .container {
